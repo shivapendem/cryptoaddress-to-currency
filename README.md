@@ -1,5 +1,5 @@
 # Description
-    npm package for simple addons to postgres projects.
+    npm package for getting supporting currencies for crypto addressess.
 # Installation
 
     npm i postgres-queryparser --save

@@ -1,6 +1,6 @@
 {
   "name": "cryptoaddress-to-currency",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get list of supported currencies for crypto address",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,9 @@
   },
   "keywords": [
     "cryptoaddress validator",
-	"cryptoaddressvalidator",
-	"crypto validator",
-	"cryptovalidator",
+    "cryptoaddressvalidator",
+    "crypto validator",
+    "cryptovalidator",
     "validator",
     "address validator",
     "validator",
