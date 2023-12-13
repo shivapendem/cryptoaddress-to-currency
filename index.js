@@ -1,12 +1,12 @@
 var WAValidator = require('multicoin-address-validator');
 
-
 function validateaddressvendor(address, vendor) {
     return WAValidator.validate(address, vendor) ? true : false;
 }
 
 function validateaddress(address) {
     let supportedchain = [];
+    if(address == null) return supportedchain;
     if (validateaddressvendor(address, '0x')) supportedchain.push({ name: "0x", ticker: "zrx" });
     if (validateaddressvendor(address, 'aave')) supportedchain.push({ name: "Aave Coin", ticker: "aave" });
     if (validateaddressvendor(address, 'algo')) supportedchain.push({ name: "Algorand", ticker: "algo" });
