@@ -2,7 +2,7 @@
     npm package for getting supporting currencies for crypto addressess.
 # Installation
 
-    npm i postgres-queryparser --save
+    npm i cryptoaddress-to-currency --save
     let ctc = require('cryptoaddress-to-currency');
     
 # How to use
@@ -18,4 +18,4 @@ console.log(ctc.validateaddress("TV4YkpEQDzneGqsm6ae2cRHmNeQyA64kEd"));
 ```
 ## Support
 
-Happy to add more, and need any updates, do get in touch on my telegram over [@chigovera](#https://t.me/chigovera)
+Happy to add more, and need any updates, do get in touch on my telegram over [@chigovera](https://t.me/chigovera)
