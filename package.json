@@ -1,6 +1,6 @@
 {
   "name": "cryptoaddress-to-currency",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get list of supported currencies for crypto address",
   "main": "index.js",
   "scripts": {
