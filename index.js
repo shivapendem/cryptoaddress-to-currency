@@ -49,7 +49,7 @@ function validateaddress(address) {
     if (validateaddressvendor(address, 'dnt')) supportedchain.push({ name: "District0x", ticker: "dnt" });
     if (validateaddressvendor(address, 'doge')) supportedchain.push({ name: "DogeCoin", ticker: "doge" });
     if (validateaddressvendor(address, 'enj')) supportedchain.push({ name: "Enjin Coin", ticker: "enj" });
-    if (validateaddressvendor(address, 'eos')) supportedchain.push({ name: "EOS", ticker: "eos" });
+    // if (validateaddressvendor(address, 'eos')) supportedchain.push({ name: "EOS", ticker: "eos" });
     if (validateaddressvendor(address, 'eth')) supportedchain.push({ name: "Ethereum", ticker: "eth" });
     if (validateaddressvendor(address, 'etc')) supportedchain.push({ name: "EthereumClassic", ticker: "etc" });
     if (validateaddressvendor(address, 'ethw')) supportedchain.push({ name: "EthereumPow", ticker: "ethw" });
@@ -140,6 +140,29 @@ function validateaddress(address) {
     if (validateaddressvendor(address, 'zec')) supportedchain.push({ name: "ZCash", ticker: "zec" });
     if (validateaddressvendor(address, 'zcl')) supportedchain.push({ name: "ZClassic", ticker: "zcl" });
     if (validateaddressvendor(address, 'zen')) supportedchain.push({ name: "ZenCash", ticker: "zen" });
+    
+    if (validateaddressvendor(address, 'magic')) supportedchain.push({name: "Magic",ticker: "magic"});
+    if (validateaddressvendor(address, 'bico')) supportedchain.push({name: "Biconomy",ticker: "bico"});
+    if (validateaddressvendor(address, 'api3')) supportedchain.push({name: "API3",ticker: "api3"});
+    if (validateaddressvendor(address, 'axs')) supportedchain.push({name: "Axie Infinity",ticker: "axs"});
+    if (validateaddressvendor(address, 'blur')) supportedchain.push({name: "Blur",ticker: "blur"});
+    if (validateaddressvendor(address, 'chz')) supportedchain.push({name: "Chiliz",ticker: "chz"});
+    if (validateaddressvendor(address, 'ens')) supportedchain.push({name: "Ethereum Name Service",ticker: "ens"});
+    if (validateaddressvendor(address, 'fet')) supportedchain.push({name: "Fetch.ai",ticker: "fet"});
+    if (validateaddressvendor(address, 'ilv')) supportedchain.push({name: "Illuvium",ticker: "ilv"});
+    if (validateaddressvendor(address, 'inj')) supportedchain.push({name: "Injective",ticker: "inj"});
+    if (validateaddressvendor(address, 'imx')) supportedchain.push({name: "Immutable",ticker: "imx"});
+    if (validateaddressvendor(address, 'mask')) supportedchain.push({name: "Mask Network",ticker: "mask"});
+    if (validateaddressvendor(address, 'ogn')) supportedchain.push({name: "Origin Protocol",ticker: "ogn"});
+    if (validateaddressvendor(address, 'xcn')) supportedchain.push({name: "Onyx Protocol",ticker: "xcn"});
+    if (validateaddressvendor(address, 'unfi')) supportedchain.push({name: "Unifi Protocol DAO",ticker: "unfi"});
+    if (validateaddressvendor(address, 'trb')) supportedchain.push({name: "Tellor",ticker: "trb"});
+    if (validateaddressvendor(address, 'super')) supportedchain.push({name: "SuperVerse",ticker: "super"});
+    if (validateaddressvendor(address, 'skl')) supportedchain.push({name: "Skale",ticker: "skl"});
+    if (validateaddressvendor(address, 'sand')) supportedchain.push({name: "The Sandbox",ticker: "sand"});
+    if (validateaddressvendor(address, 'pyr')) supportedchain.push({name: "Vulcan Forged PYR",ticker: "pyr"});
+    if (validateaddressvendor(address, 'pond')) supportedchain.push({name: "Marlin",ticker: "pond"});
+    if (validateaddressvendor(address, 'pyusd')) supportedchain.push({name: "PayPal USD",ticker: "pyusd"});
     return supportedchain;
 };
 module.exports = { validateaddress };
